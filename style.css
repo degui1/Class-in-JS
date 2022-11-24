@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap');
+
+:root{
+    --fontColor: #fff;
+    --titleColor: #22A39F;
+    --backGroundColor: #434242;
+}
+*{
+    margin: 0;
+    font-family: 'Comic Neue', cursive;
+    color: var(--fontColor);
+}
+h1{
+    color: #22A39F;
+}
+
+body{
+    display: flex;
+    /* margin: 0 1em 0 1em; */
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--backGroundColor);
+}
+main{
+    display: flex;
+    justify-content: space-around;
+    width: 80vw;
+    padding: 2em;
+    background-color: #333;
+    text-align: center;
+}
+main div{
+    margin-top: 1em;
+}
+#infoCar, #logs{
+    display: flex;
+    flex-direction: column;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    padding: 2em;
+    text-align: center;
+}
+section div{
+    margin-top: 1em;
+}
+section div form{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+button{
+    display: inline-block;
+    background-color: var(--titleColor);
+    border: none;
+    padding: 0.5em;
+    border-radius: 5px;
+    margin-top: 0.5em;
+    cursor: pointer;
+}
+input{
+    color: var(--backGroundColor);
+}
+.popUp{
+    background-color: #5F8D4E;
+    padding: 2em;
+    border-radius: 5px;
+    display: none;
+}
